@@ -2011,7 +2011,7 @@ img {
 }
 
 .single-price-table-area .price-value h2 span:first-child::after {
-    content: '$';
+    content: '';
     font-size: 30px;
     position: absolute;
     top: 23px;
