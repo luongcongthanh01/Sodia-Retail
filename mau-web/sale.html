@@ -26,6 +26,30 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- <link rel="stylesheet" href="css/responsive.css"> -->
 </head>
+<!-- messenger plugin chat -->
+<!-- Messenger Plugin chat Code -->
+<div id="fb-root"></div>
+<script>
+    window.fbAsyncInit = function() {
+        FB.init({
+            xfbml: true,
+            version: 'v10.0'
+        });
+    };
+
+    (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>
+
+<!-- Your Plugin chat code -->
+<div class="fb-customerchat" attribution="page_inbox" page_id="106222747486930">
+</div>
 
 <body>
     <!--[if lte IE 9]>
@@ -57,7 +81,7 @@
                         <div class="col-xl-3 col-lg-3 d-none d-lg-block">
                             <div class="Appointment">
                                 <div class="book_btn d-none d-lg-block">
-                                    <a href="#">Mua Ngay</a>
+                                    <a href="m.me/PHE.09.79.01.00.99">Mua Ngay</a>
                                 </div>
                             </div>
                         </div>
@@ -239,7 +263,7 @@
             <div class="row">
                 <div class="col-xl-12">
                     <div class="more_portfolio text-center">
-                        <a class="line_btn" href="#">Mua Ngay</a>
+                        <a class="line_btn" href="m.me/PHE.09.79.01.00.99">Mua Ngay</a>
                     </div>
                 </div>
             </div>
@@ -301,7 +325,7 @@
                         <h3>1 Get 1 Free</h3>
                         <p>Tự tin về chất lượng sản phẩm tuyệt vời chỉ với 999k, Phê cam kết 1 đổi 1 trong vòng 30 ngày nếu khách hàng cảm thấy không hài lòng về sản phẩm .</p>
                         <div class="download_cv">
-                            <a class="boxed-btn3" href="#">Mua Ngay</a>
+                            <a class="boxed-btn3" href="m.me/PHE.09.79.01.00.99">Mua Ngay</a>
                         </div>
                     </div>
                 </div>
@@ -405,7 +429,7 @@
                     <div class="project_text text-center">
                         <h3>Thưởng ngay cho bản thân 1 chiếc thật xịn</h3>
                         <p>Phê shop cam kết về chất lượng <br> và đổi trả nếu không hài lòng.</p>
-                        <a class="boxed-btn3" href="#">Mua Ngay</a>
+                        <a class="boxed-btn3" href="m.me/PHE.09.79.01.00.99">Mua Ngay</a>
                     </div>
                 </div>
             </div>
@@ -471,5 +495,6 @@
 
     <script src="js/main.js"></script>
 </body>
+
 
 </html>
