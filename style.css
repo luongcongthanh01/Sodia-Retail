@@ -463,7 +463,7 @@ img {
 /* :: 3.6.0 ScrollUp */
 
 #scrollUp {
-    background-color: #999999;
+    background-color: #000000;
     border-radius: 5px 0 0 5px;
     bottom: 70px;
     color: #ffffff;
@@ -528,13 +528,13 @@ img {
 .pixel-btn:focus {
     font-size: 14px;
     font-weight: 600;
-    background-color: #999999;
+    background-color: #000000;
     color: #ffffff;
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.15);
 }
 
 .pixel-btn.btn-2 {
-    background-color: #999999;
+    background-color: #000000;
     color: #ffffff;
 }
 
@@ -547,8 +547,8 @@ img {
 
 .pixel-btn.btn-3 {
     background-color: transparent;
-    color: #999999;
-    border: 2px solid #999999;
+    color: #000000;
+    border: 2px solid #000000;
     line-height: 44px;
 }
 
@@ -770,7 +770,7 @@ img {
 }
 
 .header-area .is-sticky .pixel-main-menu {
-    background-color: #999999;
+    background-color: #000000;
     box-shadow: 0 7px 40px 0 rgba(0, 0, 0, 0.3);
 }
 
@@ -1034,7 +1034,7 @@ img {
 .nl-area {
     position: relative;
     z-index: 3;
-    background-color: #999999;
+    background-color: #000000;
 }
 
 .nl-area .nl-form {
@@ -1473,7 +1473,7 @@ img {
 .footer-area {
     position: relative;
     z-index: 1;
-    background-color: #999999;
+    background-color: #000000;
     padding-left: 35px;
     padding-right: 35px;
 }
@@ -1746,7 +1746,7 @@ img {
     z-index: -1;
     top: 0;
     left: 0;
-    background-color: rgba(104, 139, 254, 0.75);
+    background-color: rgba(255, 0, 0, 0.5);
 }
 
 .breadcrumb-area .breadcrumb-content {
@@ -1862,11 +1862,11 @@ img {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: rgba(104, 139, 254, 0.5);
+    background-color: rgba(255, 0, 0, 0.5);
 }
 
 .single-service-cata:hover::after {
-    background-color: rgba(255, 121, 2, 0.9);
+    background-color: rgba(0, 0, 0, 0.9);
 }
 
 .single-service-cata a {
@@ -2102,7 +2102,7 @@ img {
     -webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);
     transform: scale(1.2);
-    background-color: #999999;
+    background-color: #000000;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -2232,7 +2232,7 @@ img {
     height: 32px;
     border-radius: 50%;
     border: 2px solid #FF0000;
-    color: #999999;
+    color: #000000;
     text-align: center;
     line-height: 28px;
     margin-right: 20px;
@@ -2320,7 +2320,7 @@ img {
 
 .single-service-area a:hover,
 .single-service-area a:focus {
-    color: #999999;
+    color: #000000;
 }
 
 .single-service-area:hover img,
@@ -2396,7 +2396,7 @@ img {
 }
 
 .single-accordion h6 a {
-    background-color: #999999;
+    background-color: #000000;
     border-radius: 0;
     color: #ffffff;
     display: block;
@@ -2511,7 +2511,7 @@ img {
 }
 
 .pixel-tabs-content .nav-tabs .nav-link.active {
-    background-color: #999999;
+    background-color: #000000;
     color: #ffffff;
 }
 
@@ -2532,7 +2532,7 @@ img {
 .single-icons {
     position: relative;
     z-index: 1;
-    background-color: #999999;
+    background-color: #000000;
     border-radius: 5px;
     text-align: center;
     padding: 50px 20px;
