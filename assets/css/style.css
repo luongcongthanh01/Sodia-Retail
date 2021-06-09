@@ -185,6 +185,17 @@ p {
 }
 
 
+/* proposal */
+
+.proposal {}
+
+.proposal-img {
+    transition: 0.5s;
+    background-color: gray;
+    opacity: 90%;
+}
+
+
 /*===== All SECTION TITLE Style =====*/
 
 .section-title .line {
